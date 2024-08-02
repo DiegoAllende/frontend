@@ -1,0 +1,7 @@
+{
+  "/product/*": {
+    "target": "https://5doa19p9r7.execute-api.us-east-1.amazonaws.com/MMPROD",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

@@ -1,0 +1,36 @@
+<section class="product">
+  <section class="product-title">
+    <p>{{product.name}}</p>
+  </section>
+  <section class="product-info">
+    <section class="product-info-group">
+      <span>SKU:</span>
+      <span>{{product.sku}}</span>
+    </section>
+    <section class="product-info-group">
+      <span>Stock:</span>
+      <span>{{product.stock}}</span>
+    </section>
+    <section class="product-info-group">
+      <span>Estado:</span>
+      <span>{{product.statusDes}}</span>
+    </section>
+  </section>
+  <section class="product-price">
+    <section class="product-price-group">
+      <span>Price:</span>
+      <span>{{product.price}}</span>
+    </section>
+    <section class="product-price-group">
+      <span>Price Promo:</span>
+      <span>{{product.pricePromoPay}}</span>
+    </section>
+    <section class="product-price-group">
+      <span>Price OH:</span>
+      <span>{{product.priceOhPay}}</span>
+    </section>
+  </section>
+  <section class="product-img">
+    <img [src]="product.imageUrl" alt="imagen del producto">
+  </section>
+</section>

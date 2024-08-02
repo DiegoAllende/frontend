@@ -1,0 +1,44 @@
+.product {
+  background-color: #b6e3cb;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  &-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  &-info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    &-group {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+  
+  &-price {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    &-group {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+
+  &-img {
+    text-align: center;
+
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
